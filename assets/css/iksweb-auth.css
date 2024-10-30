@@ -1,0 +1,31 @@
+/*
+* Author URI: https://iksweb.ru/
+* Author: Сергей Князев
+*/
+*,a:focus,a:hover{outline:none!important;box-shadow:none}
+body.login{-webkit-transition:opacity .5s ease-out .1s;-moz-transition:opacity .5s ease-out .1s;-ms-transition:opacity .5s ease-out .1s;-o-transition:opacity .5s ease-out .1s;transition:opacity .5s ease-out .1s}
+body.login{height:100%;min-height:768px;min-width:705px;overflow:hidden;position:relative;width:100%}
+body.login{background:#f2f4f7}
+#login{padding:0;width:100%;margin:auto}
+.login form{padding:22px 33px 24px;width:380px;margin:5% auto 0;background:#fff;box-sizing:border-box;position:relative;border:0;border-radius:0}
+.privacy-policy-page-link{display:none}
+.login input[type=text],.login input[type=password]{font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;position:relative;margin:0 0 15px;padding:5px 15px;height:46px;width:100%;border:1px solid #c6cdd3;border-radius:2px;color:#5c6470;text-align:left;font-size:15px;line-height:34px;box-sizing:border-box;outline:none!important;text-decoration:none;box-shadow:none!important}
+.login label{color:#333;font-weight:500;padding:0 0 7px;font:17px "OpenSans-Bold","Helvetica Neue",Helvetica,Arial,sans-serif}
+.login label[for=rememberme]{display:inline-block;color:#333;font-size:14px;vertical-align:top;margin:0;font-weight:normal}
+.login h1,#backtoblog,#nav{display:none}
+.wp-core-ui .button.button-large{box-sizing:border-box;margin:0;height:34px;border-radius:2px;outline:none!important;border:#3bc8f5;border-color:#3bc8f5;background-color:#3bc8f5;box-shadow:none!important;cursor:pointer;transition:160ms background-color linear,160ms color linear,160ms opacity linear,160ms border-color linear;position:relative;display:inline-flex;-ms-flex-pack:center;-webkit-box-pack:center;justify-content:center;-ms-flex-align:center;-webkit-box-align:center;align-items:center;padding:0 20px;color:#fff;vertical-align:middle;text-align:center;text-decoration:none;text-transform:uppercase;white-space:nowrap;font:13px "OpenSans-Bold","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.wp-core-ui .button.button-large:hover,.wp-core-ui .button.button-large:active{outline:none;border-color:#12b1e3;background-color:#12b1e3;box-shadow:none;color:#fff;text-shadow:none}
+.reserch{color:#1c53a2;text-decoration:none;display:block;margin:6px 0 0 0;font:14px "OpenSans-Bold","Helvetica Neue",Helvetica,Arial,sans-serif}
+.reserch:hover{text-decoration:underline}
+.login .message{position:fixed;width:300px;right:20px;bottom:80px}
+.login #login_error{position:fixed;right:20px;bottom:30px;width:auto;width:300px}
+.footer-iksweb{position:fixed;bottom:20px;left:0;width:100%}
+.footer-iksweb .iksweb{width:90%;max-width:1400px;margin:0 auto;display:flex;flex-direction:row;justify-content:space-between;align-items:center;padding:0 20px;color:#2a2a2a}
+.footer-iksweb a{color:#2a2a2a;text-decoration:none}
+.footer-iksweb a.support{background:url(../img/bx-admin-sprite-small-2.png) no-repeat 0 -1652px;padding:0 0 0 20px}
+body #loginform .login-popup-title{color:#24272b;margin:0 0 25px 0;line-height:30px;font:25px "OpenSans-Bold","Helvetica Neue",Helvetica,Arial,sans-serif}
+div.g-recaptcha{display:flex;flex-direction:row;align-items:center;justify-content:center;margin:10px 0 20px}
+.login .button.wp-hide-pw .dashicons{top:13px;box-shadow:none!important;outline:none!important;border:0!important}
+.wp-pwd .button-secondary{ outline: none!important; box-shadow: none!important; border: 0!important; color: #4b4949; height: 43px; padding: 0; display: flex; align-items: center; justify-content: center; box-sizing: border-box; }
+.login .button.wp-hide-pw .dashicons { top: 1px;}
+.language-switcher{display:none}
